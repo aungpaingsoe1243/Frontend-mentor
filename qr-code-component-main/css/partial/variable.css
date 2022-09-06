@@ -1,0 +1,11 @@
+:root {
+  --mobile: 37.5rem;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --primary-fz: 1.5rem;
+  --primary-f: 'Outfit', sans-serif;
+  --primary-fw-400: 400;
+  --primary-fw-700: 700;
+}
