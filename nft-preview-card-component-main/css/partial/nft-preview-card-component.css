@@ -1,0 +1,135 @@
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark-blue-main-bg);
+}
+.section-1 .grid-1 {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .container-1 {
+  width: 30rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background-color: var(--dark-blue-card-bg);
+  box-shadow: 0 .4rem 2rem rgba(0, 0, 0, 0.25);
+}
+.section-1 .container-1 .image-wrapper {
+  width: 100%;
+  height: 30rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.section-1 .container-1 .image-wrapper .image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 255, 255, 0), rgba(0, 255, 255, 0)), url('../../images/image-equilibrium.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+.section-1 .container-1 .image-wrapper .image div {
+  width: 100%;
+  height: 100%;
+}
+
+.section-1 .container-1 .image-wrapper .image div::after {
+  content: url('../../images/icon-view.svg');
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.section-1 .container-1 .image-wrapper .image div:hover::after {
+  display: block;
+}
+.section-1 .container-1 .image-wrapper .image:hover {
+  background: linear-gradient(rgba(0, 255, 255, 0.35), rgba(0, 255, 255, 0.35)), url('../../images/image-equilibrium.jpg') no-repeat center;
+  background-size: cover;
+}
+.section-1 .container-1 .text {
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+  border-bottom: 0.2rem solid var(--dark-blue-line);
+}
+.section-1 .container-1 .text .heading {
+  font-size: 2.2rem;
+  font-weight: var(--primary-fw-600);
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+.section-1 .container-1 .text .body {
+  margin-bottom: 3rem;
+  color: var(--soft-blue);
+  font-weight: var(--primary-fw-300);
+}
+.section-1 .container-1 .text .status {
+  display: flex;
+  justify-content: space-between;
+  font-weight: var(--primary-fw-400);
+  color: var(--cyan);
+}
+.section-1 .container-1 .text .status .icon {
+  font-size: 1.8rem;
+}
+.section-1 .container-1 .text .status .eth::before {
+  content: url("../../images/icon-ethereum.svg");
+  display: inline-block;
+  position: relative;
+  top: 10%;
+  margin-right: 0.5rem;
+}
+.section-1 .container-1 .text .status .days-left {
+  color: var(--soft-blue);
+}
+.section-1 .container-1 .text .status .days-left::before {
+  content: url("../../images/icon-clock.svg");
+  display: inline-block;
+  position: relative;
+  top: 10%;
+  margin-right: 0.5rem;
+}
+.section-1 .container-1 .card-footer {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  padding: 0 2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.section-1 .container-1 .card-footer .user-img {
+  width: 3rem;
+  height: 3rem;
+}
+.section-1 .container-1 .card-footer .user-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0.2rem solid;
+  border-radius: 10rem;
+}
+.section .container-1 .card-footer > div:nth-child(2) {
+  font-size: 1.5rem;
+  color: var(--soft-blue);
+}
+.section .container-1 .card-footer > div:nth-child(2) span {
+  font-size: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+}
+.section .container-1 .card-footer > div:nth-child(2) span:hover {
+  color: var(--cyan);
+}
