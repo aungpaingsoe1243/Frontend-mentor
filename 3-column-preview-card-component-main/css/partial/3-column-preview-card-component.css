@@ -1,0 +1,111 @@
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--very-light-gray-b-h-b);
+}
+.section-1 .grid-1 {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .container {
+  width: 30rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #333;
+  height: 50rem;
+}
+.section-1 .container-1 {
+  background-color: var(--bright-orange);
+}
+.section-1 .container-2 {
+  background-color: var(--dark-cyan);
+}
+.section-1 .container-3 {
+  background-color: var(--very-dark-cyan);
+}
+.section-1 .container:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+.section-1 .container:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+.section-1 .container .image {
+  margin-bottom: 3rem;
+}
+.section-1 .container .image img {
+  display: block;
+}
+.section-1 .container .heading {
+  color: var(--very-light-gray-b-h-b);
+  font-family: var(--secondary-f);
+  font-weight: var(--secondary-fw-700);
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+.section-1 .container .body {
+  color: var(--t-white-p);
+  font-weight: var(--primary-fw-400);
+  line-height: 1.8em;
+}
+.section-1 .container .button {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 1.2rem 2.5rem;
+  border-radius: 10rem;
+  background-color: var(--very-light-gray-b-h-b);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-sizing: border-box;
+}
+.section-1 .container .button:hover {
+  background-color: hsla(0, 0%, 95%, 0%);
+  color: var(--very-light-gray-b-h-b);
+  border: 0.2rem solid var(--very-light-gray-b-h-b);
+  padding: 1rem 2.3rem;
+}
+.section-1 .container-1 .button {
+  color: var(--bright-orange);
+}
+.section-1 .container-2 .button {
+  color: var(--dark-cyan);
+}
+.section-1 .container-3 .button {
+  color: var(--very-dark-cyan);
+}
+@media (max-width: 1000px) {
+  .section-1 {
+    height: auto;
+    padding: 5rem 0;
+  }
+  .section-1 .grid-1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section-1 .container {
+    width: 100%;
+    height: auto;
+  }
+  .section-1 .container .body {
+    margin-bottom: 3rem;
+  }
+  .section-1 .container:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+  .section-1 .container:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .section-1 .container {
+    width: 30rem;
+    height: 50rem;
+  }
+}

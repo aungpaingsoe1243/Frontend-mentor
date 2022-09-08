@@ -1,0 +1,13 @@
+:root {
+  --mobile: 37.5rem;
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --t-white-p: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray-b-h-b: hsl(0, 0%, 95%);
+  --primary-fz: 1.5rem;
+  --primary-f: 'Lexend Deca', sans-serif;
+  --secondary-f: 'Big Shoulders Display', cursive;
+  --primary-fw-400: 400;
+  --secondary-fw-700: 700;
+}
