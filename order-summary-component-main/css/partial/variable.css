@@ -1,0 +1,15 @@
+:root {
+  --mobile: 37.5rem;
+  /* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  /* Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --primary-fz: 1.6rem;
+  --primary-f: 'Red Hat Display', sans-serif;
+  --primary-fw-500: 500;
+  --primary-fw-700: 700;
+  --primary-fw-900: 900;
+}
