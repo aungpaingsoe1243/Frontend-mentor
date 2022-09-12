@@ -1,0 +1,7 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Partial */
+@import 'partial/variable.css';
+@import 'partial/global.css';
+@import 'partial/common.css';
+@import 'partial/stats-preview-card-component.css';
