@@ -1,0 +1,43 @@
+.section-1 {
+  height: 100vh !important;
+  background-color: var(--dark-cyan);
+  position: relative;
+}
+.section-1 .box-1 {
+  height: 100%;
+}
+.section-1 .rectangle-1 {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.2); 
+}
+.section-1 .rectangle-1 .custom-card-body {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.section-1 .rectangle-1 .custom-card-body .image {
+  border-radius: 10rem;
+  overflow: hidden;
+  border: 0.8rem solid #fff;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.section-1 .rectangle-1 .custom-card-body .name {
+  margin-top: 8rem;
+  font-weight: var(--primary-fw-700);
+}
+.section-1 .rectangle-1 .custom-card-body .name span{
+  font-weight: var(--primary-fw-400);
+}
+.section-1 .rectangle-1 .custom-card-body .location {
+  font-size: 1.5rem;
+}
+.section-1 .rectangle-1 .custom-card-body .status .row > div > div:first-child {
+  font-weight: var(--primary-fw-700);
+  text-align: center;
+}
+.section-1 .rectangle-1 .custom-card-body .status .row > div > div:last-child {
+  font-size: 1.5rem;
+  text-align: center;
+}
