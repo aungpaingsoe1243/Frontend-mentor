@@ -1,0 +1,17 @@
+:root {
+  --mobile: 37.5rem;
+  /* Primary */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  /* Neutral */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  
+  --primary-fz: 1.5rem;
+
+  --primary-f: 'League Spartan', sans-serif;
+  --primary-fw-400: 400;
+  --primary-fw-500: 500;
+  --primary-fw-700: 700;
+}
