@@ -1,0 +1,128 @@
+.section {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0;
+  background-color: var(--light-grayish-blue);
+}
+.section .grid-1 {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "c1 c1 c2 c5"
+    "c3 c4 c4 c5"
+  ;
+  gap: 3rem;
+}
+.section .container-1 {
+  grid-area: c1;
+  background-color: var(--violet);
+  color: var(--white);
+  position: relative;
+  z-index: 0;
+}
+.section .container-2 {
+  grid-area: c2;
+  background-color: var(--dark-grayish-blue);
+  color: var(--white);
+}
+.section .container-3 {
+  grid-area: c3;
+  background-color: var(--white);
+  color: var(--dark-grayish-blue);
+}
+.section .container-4 {
+  grid-area: c4;
+  background-color: var(--dark-blackish-blue);
+  color: var(--white);
+}
+.section .container-5 {
+  grid-area: c5;
+  background-color: var(--white);
+  color: var(--dark-grayish-blue);
+}
+.section .container-1::after {
+  content: url('../../images/bg-pattern-quotation.svg');
+  position: absolute;
+  top: 0;
+  right: 20%;
+  z-index: -1;
+}
+.section .container {
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.section .container .card-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.section .container .card-heading .image {
+  width: 40px;
+  height: 40px;
+  border-radius: 10rem;
+  overflow: hidden;
+}
+.section .container .card-heading .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section .container .card-heading .wrapper {
+  margin-left: 2rem;
+}
+.section .container .card-heading .wrapper .status {
+  opacity: 0.5;
+}
+.section .container .heading {
+  font-size: 2rem;
+  font-weight: var(--primary-fw-600);
+  margin-bottom: 2rem;
+  line-height: 1.3em;
+}
+.section .container .body {
+  opacity: 0.7;
+  line-height: 1.5em;
+}
+@media (max-width: 1200px) {
+  .section .grid-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "c1 c1 c2"
+      "c3 c4 c4"
+      "c5 c5 c5"
+    ;
+  }
+}
+@media (max-width: 900px) {
+  .section .grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "c1 c2"
+      "c1 c4"
+      "c3 c4"
+      "c5 c5"
+    ;
+  }
+}
+@media (max-width: 600px) {
+  .section .grid-1 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "c1"
+      "c2"
+      "c3"
+      "c4"
+      "c5"
+    ;
+  }
+}
