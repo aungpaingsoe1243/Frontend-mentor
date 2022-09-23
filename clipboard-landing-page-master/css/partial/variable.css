@@ -1,0 +1,22 @@
+:root {
+  --mobile: 37.5rem;
+  /* Primary */
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  /* Neutral */
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --white: hsl(0, 0%, 100%);
+  
+  --primary-fz: 1.8rem;
+  --sl-body-fz: 1.6rem;
+  --tl-body-fz: 1.5rem;
+
+  --fl-heading-fz: 4rem;
+  --sl-heading-fz: 3rem;
+  --tl-heading-fz: 2rem;
+
+  --primary-f: 'Bai Jamjuree', sans-serif;
+  --primary-fw-400: 400;
+  --primary-fw-600: 600;
+}
