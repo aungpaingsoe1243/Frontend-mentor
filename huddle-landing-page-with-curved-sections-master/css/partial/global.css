@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-f);
+  font-size: var(--primary-fz);
+  /* border: 1px solid skyblue; */
+}
+body {
+  color: var(--very-dark-cyan);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}

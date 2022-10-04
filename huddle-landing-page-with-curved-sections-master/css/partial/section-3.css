@@ -1,0 +1,25 @@
+/* .section-3 {
+  border: 1px solid skyblue;
+}
+.section-3 * {
+  border: 1px solid skyblue;
+} */
+.section-3 {
+  width: 100%;
+  height: auto;
+  padding: 0 5rem;
+  margin-top: 10rem;
+}
+.seciton-3 .grid-1 {
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.section-3 .container-1 {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+.section-3 .container-1 img {
+  display: block;
+  width: 100%;
+}

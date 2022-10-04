@@ -1,0 +1,21 @@
+:root {
+  --mobile: 37.5rem;
+  /* Primary */
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  /* Neutral */
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+  --white: white;
+  
+  --primary-fz: 1.5rem;
+
+  --primary-f: 'Open Sans', sans-serif;
+  --primary-fw-400: 400;
+  --primary-fw-600: 600;
+  --primary-fw-700: 700;
+
+  --secondary-f: 'Poppins', sans-serif;
+  --secondary-fw-700: 700;
+}

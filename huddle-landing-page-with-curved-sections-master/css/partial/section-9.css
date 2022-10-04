@@ -1,0 +1,148 @@
+/* .section-9 {
+  border: 1px solid tomato;
+}
+.section-9 * {
+  border: 1px solid tomato;
+} */
+.section-9 {
+  width: 100%;
+  height: auto;
+  padding: 0 5rem;
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  position: relative;
+  margin-top: 30rem;
+}
+.section-9 .top {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+}
+.section-9 .grid-1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-9 .container-1 {
+  flex: 1 1 0;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.section-9 .container-1 .logo {
+  margin-bottom: 1rem;
+}
+.section-9 .container-1 .logo img {
+  width: 20rem;
+}
+.section-9 .container-1 .body {
+  width: 60%;
+}
+.section-9 .container-1 .contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-9 .container-1 .contact .icon {
+  width: 3.5rem;
+}
+.section-9 .container-2 {
+  flex: 1 1 0;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.section-9 .container-2 .body {
+  width: 60%;
+}
+.section-9 .container-2 .form {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.section-9 .container-2 .form .form-example-1 {
+  flex: 1 1 0;
+  max-width: 35rem;
+}
+.section-9 .container-2 .form .input {
+  width: 100%;
+  line-height: 3rem;
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 0 1rem;
+}
+.section-9 .container-2 .form .submit-button {
+  line-height: 3rem;
+  padding: 0 3rem;
+  background-color: var(--pink);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.section-9 .grid-2 {
+  max-width: 120rem;
+  margin: 5rem auto 0;
+  padding-bottom: 10rem;
+}
+.section-9 .social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.section-9 .social .icon i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.section-9 .social .icon i:hover {
+  color: skyblue;
+}
+@media (max-width: 700px) {
+  .section-9 .grid-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .section-9 .container {
+    flex: 1 1 0;
+    max-width: 100%;
+  }
+  .section-9 .container .body {
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .section-9 .container-2 .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-9 .container-2 .form .form-example-1 {
+    flex: 1 1 0;
+    width: 100%;
+  }
+  .section-9 .container-2 .form .form-example {
+    align-self: flex-end;
+  }
+}
