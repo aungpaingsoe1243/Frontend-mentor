@@ -1,0 +1,126 @@
+/* .section-3 {
+  border: 1px solid tomato;
+}
+.section-3 * {
+  border: 1px solid tomato;
+} */
+.section-3 {
+  width: 100%;
+  height: auto;
+  padding: 3rem 5rem 10rem;
+  position: relative;
+  background-color: var(--light-grayish-blue);
+  margin-top: 20rem;
+}
+.section-3 .bg-curve {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+}
+.section-3 .grid-1 {
+  max-width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+.section-3 .container-1 {
+  flex: 1 1 0;
+  max-width: 50%;
+}
+.section-3 .container-1 .heading {
+  margin-bottom: 2rem;
+}
+.section-3 .container-1 .body p {
+  margin-bottom: 2rem;
+}
+.section-3 .container-1 .link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  border-bottom: 2px solid var(--moderate-cyan);
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.section-3 .container-1 .link a {
+  color: var(--moderate-cyan);
+}
+.section-3 .container-1 .card {
+  padding: 2rem 2.5rem;
+  max-width: 35rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.20);
+  background-color: var(--white);
+}
+.section-3 .container-1 .card .icon {
+  margin-bottom: 1rem;
+}
+.section-3 .container-1 .card .body {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.section-3 .container-1 .card .profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.section-3 .container-1 .card .profile .profile-picture img {
+  width: 4rem;
+  border-radius: 10rem;
+}
+.section-3 .container-1 .card .profile .profile-details .name {
+  font-weight: var(--secondary-fw-700);
+}
+.section-3 .container-1 .card .profile .profile-details .status {
+  font-size: 1.3rem;
+}
+.section-3 .container-2 {
+  flex: 1 1 0;
+  max-width: 50%;
+}
+.section-3 .container-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 700px) {
+  .section-3 {
+    margin-top: 15rem;
+    padding: 5rem 3rem 10rem !important; 
+  }
+  .section-3 .grid-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+  .section-3 .container-1 .heading {
+    text-align: center;
+  }
+  .section-3 .container-1 {
+    max-width: 100%;
+  }
+  .section-3 .container-1 .link {
+    margin: 2rem auto 5rem;
+  }
+.section-3 .container-1 .card {
+  margin: 0 auto;
+}
+}
+@media (max-width: 500px) {
+  .section-3 .container-2 {
+    max-width: 100%;
+  }
+}
